@@ -1,0 +1,11 @@
+-r common.txt
+cssmin==0.2.0
+dj-database-url==0.3.0
+django-heroku-memcacheify==0.8
+django-pylibmc==0.5.0
+djrill==1.2.0
+gevent==1.0.1
+jsmin==2.1.0
+newrelic==2.40.0.34
+psycopg2==2.5.4
+pylibmc==1.4.1
