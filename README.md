@@ -29,11 +29,14 @@ You can replace ``helloworld`` with your desired project name.
 
 ## Deployment to Heroku 
 
+Required to have [Heroku toolbelt](https://toolbelt.heroku.com/) installed
+
     $ git init
     $ git add -A
     $ git commit -m "Initial commit"
     $
     $ heroku create
+    $ # Or to get a desired heroku app-name supply the above command with desired name: `heroku create myhelloworld`
     $ git push heroku master
     $
     $ # replace 'helloworld' with your django project name that you used above to initialize it
