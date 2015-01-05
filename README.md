@@ -1,6 +1,6 @@
 # Another Heroku Django Starter Template
 
-A project heavily inspired by (https://github.com/heroku/heroku-django-template & https://github.com/rdegges/django-skel)
+A project heavily inspired by https://github.com/heroku/heroku-django-template & https://github.com/rdegges/django-skel
 
 ## Features
 
@@ -32,17 +32,17 @@ You can replace ``helloworld`` with your desired project name.
     $ git init
     $ git add -A
     $ git commit -m "Initial commit"
-
+    $
     $ heroku create
     $ git push heroku master
-    
-    $ # replace 'helloworld' with your app name
+    $
+    $ # replace 'helloworld' with your django project name that you used above to initialize it
     $ heroku config:set DJANGO_SETTINGS_MODULE='helloworld.settings.prod'
     $ heroku config:set SECRET_KEY=`openssl rand -base64 32`
-
+    $
     $ # https://docs.djangoproject.com/en/1.7/howto/deployment/checklist/#python-options
     $ heroku config:set PYTHONHASHSEED=random
-
+    $
     $ heroku run python manage.py syncdb
 
 ## Adding the basic addons to Heroku app
